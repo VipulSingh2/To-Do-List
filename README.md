@@ -45,6 +45,6 @@
 
 ```mermaid
 graph LR
-  A[Streamlit UI (Port 8501)] -->|HTTP Requests| B[FastAPI Server (Port 8000)]
+  A[Streamlit UI-->|Port 8501|] -->|HTTP Requests| B[FastAPI Server-->|Port 8000|]
   B -->|Reads/Writes| C[todo.json (Local JSON File in Container)]
 
