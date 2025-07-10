@@ -45,5 +45,6 @@
 
 ```mermaid
 graph LR
-B[Streamlit UI] -->|HTTP| C[FastAPI Server]
- --> C[todo.json]
+A[Docker Image]--> B[Streamlit UI] -->|HTTP| C[FastAPI Server]
+C --> D[todo.json]
+
