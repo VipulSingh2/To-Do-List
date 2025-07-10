@@ -46,8 +46,10 @@
 ```mermaid
 graph LR
   A[Docker Image] --> B[Docker Container]
-  B --> C[FastAPI Server]
-  C -->|HTTP| D[Streamlit UI]
-  C --> E[todo.json]
+  B --> C[FastAPI Server (Port 8000)]
+  B --> D[Streamlit UI (Port 8501)]
+  C -->|HTTP Requests| D
+  C --> E[todo.json (Local JSON File)]
+
 
 
