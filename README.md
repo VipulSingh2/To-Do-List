@@ -1,4 +1,4 @@
-# 📝 Full-Stack To-Do List App with FastAPI 🚀 Streamlit 🎨 Docker 🐳
+oo# 📝 Full-Stack To-Do List App with FastAPI 🚀 Streamlit 🎨 Docker 🐳
 
 [![Dockerized](https://img.shields.io/badge/Dockerized-Yes-blue?logo=docker)](https://hub.docker.com/)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
@@ -50,6 +50,5 @@ graph LR
   B --> D[Streamlit UI - Port 8501]
   C -->|HTTP Requests| D
   C --> E[todo.json Local JSON File]
-
 
 
