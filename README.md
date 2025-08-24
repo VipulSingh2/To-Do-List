@@ -51,4 +51,3 @@ graph LR
   C -->|HTTP Requests| D
   C --> E[todo.json Local JSON File]
 
-
